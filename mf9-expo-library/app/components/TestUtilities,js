@@ -1,0 +1,19 @@
+import React, { Component } from 'react';
+import { View, Text, StyleSheet } from 'react-native';
+import { mf9 } from '../../lib/mf9-react-native-utilities';
+
+export default class TestUtilities extends Component {
+  render() {
+    return (
+      <View style={css.container}>
+        <Text> TestUtilities </Text>
+      </View>
+    );
+  }
+}
+
+const css = StyleSheet.create({
+  container: {
+    flex: 1
+  }
+});
